@@ -1,2 +1,31 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Local virtual environments
+.venv/
+venv/
+
+# Local ChromaDB data
+chroma_db/
+chroma_db_test/
+backend/chroma_db/
+backend/chroma_db_test/
+
+# Local environment files
+.env
+.env.*
+
+# SQLite databases
+*.sqlite
+*.sqlite3
+*.db
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
 # Uploaded runtime data
 backend/data/uploads/
