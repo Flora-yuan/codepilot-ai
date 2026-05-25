@@ -1,18 +1,2 @@
-# Python cache files
-__pycache__/
-*.py[cod]
-
-# Local virtual environments
-.venv/
-venv/
-
-# Local ChromaDB data
-backend/chroma_db/
-backend/chroma_db_test/
-
 # Uploaded runtime data
 backend/data/uploads/
-
-# Local environment files
-.env
-.env.*
