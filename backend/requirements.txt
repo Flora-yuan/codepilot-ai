@@ -3,3 +3,5 @@ pydantic>=2.12,<3
 python-multipart==0.0.20
 uvicorn[standard]==0.47.0
 chromadb
+openai
+python-dotenv
