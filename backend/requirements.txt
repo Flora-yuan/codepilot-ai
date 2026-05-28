@@ -5,3 +5,4 @@ uvicorn[standard]==0.47.0
 chromadb
 openai
 python-dotenv
+langgraph
