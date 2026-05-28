@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodePilot AI 代码分析助手</title>
+  <link rel="stylesheet" href="/static/chat.css">
+</head>
+<body>
+  <main class="chat-page">
+    <section class="chat-box">
+      <h1>CodePilot AI 代码分析助手</h1>
+
+      <div id="answer" class="answer-panel">
+        <p class="placeholder">请输入一个关于当前 C++ 项目的问题。</p>
+      </div>
+
+      <div class="input-row">
+        <input
+          id="questionInput"
+          type="text"
+          placeholder="例如：这个项目的 HTTP 请求是如何解析的？"
+          autocomplete="off"
+        >
+        <button id="sendButton" type="button">发送</button>
+      </div>
+
+      <section class="references-panel">
+        <h2>引用代码位置</h2>
+        <ul id="references"></ul>
+      </section>
+    </section>
+  </main>
+
+  <script src="/static/chat.js"></script>
+</body>
+</html>
